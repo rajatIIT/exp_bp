@@ -9,7 +9,7 @@ CACHE_DIR=$2
 VERSION="5.0.2"
 MINOR_VERSION="5.0"
 
-apt-get install libreoffice
+sudo apt-get install libreoffice
 
 # LibreOffice Binaries URL
 FILE_NAME=libreoffice${VERSION}_x86-64.tar.gz
